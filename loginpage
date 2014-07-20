@@ -1,0 +1,32 @@
+/*群势网的登录页面，使用bootstrape*/
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+  <head>
+    <meta charset="UTF-8">
+    <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+    <link rel="stylesheet" href="E:/bootstrap/firstpage.css">
+    
+  </head>
+
+  <body>
+    <div class="nav">
+      <div class="container">
+        <ul class="pull-left">
+          <li><a href="#">联系我们</a></li>
+          <li><a href="#">关于群势</a></li>
+          <li><a href="#">隐私政策</a></li>
+          <li><a href="#">开发人员</a></li>
+        </ul>
+        <ul class="pull-right">
+          <li><a href="#">群势微博</a></li>
+          <li><a href="#">手机APP</a></li>
+          <li><a href="#">商业合作</a></li>
+          <li><a href="#">帮助中心</a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
