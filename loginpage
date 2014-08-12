@@ -1,63 +1,91 @@
-/*群势网的登录页面，使用bootstrape*/
 <!DOCTYPE html>
 <html lang="zh-CN">
 
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="E:/grouptrends-project/loginpage.css">
+    <link rel="stylesheet" href="E:/grouptrends-project/webpages/loginpage.css">
   </head>
 
   <body>
-    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-    <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-    <nav class="navbar navbar-default" role="navigation">
+    <div class='page-header'>
       <div class="container">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">群势</a>
-      </div>
-      </div>
-   
-
-    <div class="jumbotron">
-      <div class="container">
-      <div class="row">
-          <div class="col-md-7">
-          </div>
-          <div class="col-md-5">
-            <form class="form-horizontal" role="form">
-   <div class="form-group">
-      <label for="firstname" class="col-xs-2 control-label">Email</label>
-      <div class="col-sm-10">
-         <input type="text" class="form-control" id="firstname" 
-            placeholder="请输邮箱地址">
-      </div>
-   </div>
-   <div class="form-group">
-      <label for="lastname" class="col-xs-2 control-label">密码</label>
-      <div class="col-sm-10">
-         <input type="text" class="form-control" id="lastname" 
-            placeholder="请输入密码">
-      </div>
-   </div>
-   <div class="form-group">
-      <div class="col-sm-offset-2 col-sm-10">
-         <div class="checkbox">
-            <label>
-               <input type="checkbox"> 请记住我
-            </label>
-         </div>
-      </div>
-   </div>
-   <div class="form-group">
-      <div class="col-sm-offset-2 col-sm-10">
-         <button type="submit" class="btn btn-default">登录</button>
-      </div>
-   </div>
-</form>
-
-          </div>
+        <a href="#" class="logo-icon">
+          <img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/logo.png">
+        </a>
       </div>
     </div>
+    <div class='main-body'>
+    <div class='container'>
+    <div class='row col-md-7'>
+    <div class='description'>
+    <p>在<span style='strong:true'>组队</span>上，你可以找到免费的场地</p>
+    <p>并且可以和刚认识的朋友组成一支球队，参加联赛</p>
+    </div>
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="http://i0.sinaimg.cn/2014/photo/idx/2014/0715/U9977P1545T67D1F1814DT20140715031643.jpg" alt="...">
+      <div class="carousel-caption">
+        <h3>全景世界杯</h3>
+        <p>走进平民窟</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://i3.sinaimg.cn/2014/photo/idx/2014/0714/U687P1545T67D1F1806DT20140714202314.jpg" alt="...">
+      <div class="carousel-caption">
+        <h3>焦点</h3>
+        <p>冠军德国</p>
+      </div>
+    </div>
+    <div class="item">
+      <img src="http://i1.sinaimg.cn/2014/photo/idx/2014/0715/U9977P1545T67D1F1810DT20140715025856.jpg" alt="...">
+      <div class="carousel-caption">
+        <h3>性感</h3>
+        <p>世界杯美女</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+  </div>
+  </div>
+  <div class='row col-md-5'>
+    <div class='#'>
+</div>
+</div>
+</div>
+<hr/>
+<div class='footer'>
+   <div class='container'>
+       <ul>
+           <li><a href="#">联系我们</a></li>
+           <li><a href="#">关于组队</a></li>
+           <li><a href="#">隐私政策</a></li>
+           <li><a href="#">开发人员</a></li>
+           <li><a href="#">组队微博</a></li>
+           <li><a href="#">手机APP</a></li>
+           <li><a href="#">帮助中心</a></li>
+       </ul>
+   </div>
+</div>
+    <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://cdn.bootcss.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
   </body>
 </html>
