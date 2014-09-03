@@ -1,15 +1,29 @@
 /*firstpage.css*/
-body {
-  font-family: "Microsoft YaHei",Arial,Helvetica,sans-serif,"宋体";
-}
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
-}
-.nav li {
-	display: inline;
-}
+/*firstpage.css*/
 
+.main-body {
+	background-color: #E0E0E0;
+}
+.main-body .description p{
+	font-size: 20px;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+.register-login {
+	float: right;
+	margin-left: 10px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	background-color: #FFFFFF;
+	border: 1px,#E0E0E0;
+	
+}
+.footer {
+	display: center;
+	text-align: center;
+	font-weight: 10px;
+	font-size: 18px;
+	font-family: sans-serif;
+	color: #9D9D9D;
+}
