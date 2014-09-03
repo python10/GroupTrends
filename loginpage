@@ -1,10 +1,11 @@
+ 
 <!DOCTYPE html>
 <html lang="zh-CN">
 
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="E:/grouptrends-project/webpages/loginpage.css">
+    <link rel="stylesheet" href="F:/grouptrends-project/login.css">
   </head>
 
   <body>
@@ -67,22 +68,77 @@
   </div>
   </div>
   <div class='row col-md-5'>
-    <div class='#'>
+    <div class='register-login'>
+      <ul id="myTab" class="nav nav-tabs">
+        <li class="active">
+          <a href="#login" data-toggle="tab">
+            登录
+          </a>
+        </li>
+       <li><a href="#register" data-toggle="tab">注册</a></li>
+      </ul>
+    <div id="myTabContent" class="tab-content">
+      <div class="tab-pane fade in active" id="register">
+        <form class="form-horizontal" role="form">
+   </div>
+   <div class="form-group">
+      <div class="col-sm-10">
+         <input type="text" class="form-control" id="register-email" 
+            placeholder="请输入电子邮件地址">
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="col-sm-10">
+         <input type="text" class="form-control" id="user-name" 
+            placeholder="请输入用户名">
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="col-sm-10">
+         <input type="text" class="form-control" id="register-password" 
+            placeholder="请输入密码">
+      </div>
+   </div>
+</form>
+      </div>
+
+      <div class="tab-pane fade" id="login">
+        <form class="form-horizontal" role="form">
+   <div class="form-group">
+      <div class="col-sm-10">
+         <input type="text" class="form-control" id="email" 
+            placeholder="电子邮件">
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="col-sm-10">
+         <input type="text" class="form-control" id="password" 
+            placeholder="密码">
+      </div>
+   </div>
+   <div class="form-group">
+      <div class="col-md-10">
+         <button type="submit" class="btn btn-default">登录</button>
+      </div>
+   </div>
+</form>
+      </div>
+    </div>
+  </div>
+      
 </div>
 </div>
 </div>
 <hr/>
 <div class='footer'>
    <div class='container'>
-       <ul>
-           <li><a href="#">联系我们</a></li>
-           <li><a href="#">关于组队</a></li>
-           <li><a href="#">隐私政策</a></li>
-           <li><a href="#">开发人员</a></li>
-           <li><a href="#">组队微博</a></li>
-           <li><a href="#">手机APP</a></li>
-           <li><a href="#">帮助中心</a></li>
-       </ul>
+      <span><a href="#">联系我们</a></span>
+      <span><a href="#">关于组队</a></span>
+      <span><a href="#">隐私政策</a></span>
+      <span><a href="#">开发人员</a></span>
+      <span><a href="#">组队微博</a></span>
+      <span><a href="#">手机APP</a></span>
+      <span><a href="#">帮助中心</a></span>
    </div>
 </div>
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
