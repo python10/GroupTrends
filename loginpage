@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="F:/grouptrends-project/login.css">
+    <link rel="stylesheet" href="E:/grouptrends-project/webpages/loginpage.css">
   </head>
 
   <body>
@@ -19,7 +19,7 @@
     <div class='container'>
     <div class='row col-md-7'>
     <div class='description'>
-    <p>在<span style='strong:true'>组队</span>上，你可以找到免费的场地</p>
+    <p>在组队上，你可以找到免费的场地</p>
     <p>并且可以和刚认识的朋友组成一支球队，参加联赛</p>
     </div>
     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
@@ -81,19 +81,29 @@
         <form class="form-horizontal" role="form">
    <div class="form-group">
       <div class="col-lg-12">
-         <input type="text" class="form-control" id="login-email" 
+         <input type="text" class="form-control input-lg" id="login-email" 
             placeholder="电子邮件">
       </div>
-   </div>
+    </div>
    <div class="form-group">
       <div class="col-lg-12">
-         <input type="text" class="form-control" id="login-password" 
+         <input type="text" class="form-control input-lg" id="login-password" 
             placeholder="登录密码">
       </div>
+    </div>
+    <div class="form-group">
+      <div class="col-sm-10">
+         <div class="checkbox">
+            <label>
+               <input type="checkbox"> 记住我 <a href="#">忘记密码?</a>
+            </label>
+         </div>
+      </div>
    </div>
+
    <div class="form-group">
       <div class="col-lg-12">
-         <button type="submit" class="btn btn-lg">登录</button>
+         <button type="submit" class="btn btn-primary btn-lg">登录</button>
       </div>
    </div>
 </form>
@@ -101,27 +111,36 @@
 
       <div class="tab-pane fade" id="register">
         <form class="form-horizontal" role="form">
-   <div class="form-group-lg">
+   <div class="form-group">
       <div class="col-lg-12">
-         <input type="text" class="form-control" id="email" 
+         <input type="text" class="form-control input-lg" id="email" 
             placeholder="电子邮件">
       </div>
    </div>
    <div class="form-group">
       <div class="col-lg-12">
-         <input type="text" class="form-control" id="userName" 
+         <input type="text" class="form-control input-lg" id="userName" 
             placeholder="请输入用户名">
       </div>
    </div>
    <div class="form-group">
       <div class="col-lg-12">
-         <input type="text" class="form-control" id="password" 
+         <input type="text" class="form-control input-lg" id="password" 
             placeholder="请输入密码">
       </div>
    </div>
    <div class="form-group">
+      <div class="col-sm-10">
+         <div class="checkbox">
+            <label>
+               <input type="checkbox"> 我已阅读用户协议
+            </label>
+         </div>
+      </div>
+   </div>
+   <div class="form-group">
       <div class="col-lg-12">
-         <button type="submit" class="btn btn-lg">注册</button>
+         <button type="submit" class="btn btn-primary btn-lg">注册</button>
       </div>
    </div>
 </form>
