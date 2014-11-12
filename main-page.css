@@ -1,0 +1,29 @@
+/*css file for main_page*/
+
+.header{
+	height: 80px;
+	background: #e7e7e7;
+}
+.header img{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+/*.brand{
+	display: inline;
+	margin-left: 10px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size:25px;
+	font-weight: bold;
+	color: #13456A;
+}*/
+.invite{
+	display: inline;
+	float: right;
+	text-decoration: none;
+	color: #13456A;
+	margin-top: 30px;
+	margin-bottom:30px; 
+	font-size: 16px;
+	font-style: bold;
+}
