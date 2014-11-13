@@ -2,23 +2,24 @@
 <html lang="zh-CN">
   <head>
     <meta charset="UTF-8">
+    <script src="http://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
     <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.2.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="F:/grouptrends-project/main-page.css">
+    <link rel="stylesheet" href="E:/grouptrends-project/webpages/main_page.css">
   </head>
   <body>
 
-  <!--   <div class='header'>
+    <!-- <div class='header'>
       <div class="container">
-        <a href="http://www.baidu.com"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/logo.png" /></a> -->
-    	<!-- <p class='brand'>组队</p>
+        <a href="http://www.baidu.com"><img src="http://s3.amazonaws.com/codecademy-content/courses/ltp2/img/flipboard/logo.png" /></a>
+  	    <p class='brand'>组队</p>
     	<a href="#" class="invite">邀请</a>
       </div>
     </div> -->
-
+ 
     <div class='main-body'>
-    	<div class="container">
-    		<nav class="navbar navbar-default" role="navigation">
-            	<div class="container-fluid">
+    		<nav class="navbar navbar-inverse" role="navigation">
+    		<div class="container">
+            	<!-- <div class="container-fluid"> -->
     <!-- Brand and toggle get grouped for better mobile display -->
     				<div class="navbar-header">
       					<!-- <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -27,14 +28,13 @@
         					<span class="icon-bar"></span>
         					<span class="icon-bar"></span>
       					</button> -->
-      					<a class="navbar-brand" href="#"><span>首页</span></a>
+      					<a class="navbar-brand" href="#">组队</a>
     			</div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       				<ul class="nav navbar-nav">
-        				<li><a href="#">个人主页</a></li>
-        				<li><a href="#">同城</a></li>
+        				<li class="active"><a href="#">同城</a></li>
         				<li><a href="#">场地</a></li>
         				<li><a href="#">俱乐部</a></li>
         				<li><a href="#">足球</a></li>
@@ -57,6 +57,7 @@
         					</div>
         					<button type="submit" class="btn btn-default">搜索</button>
       					</form>
+        				<span class='rigster'><a href="#">注册/</a><a href="#">登录</a></span>
       					<!-- <ul class="nav navbar-nav navbar-right">
         					<li><a href="#">Link</a></li>
         					<li class="dropdown">
@@ -71,9 +72,14 @@
         					</li>
       					</ul> -->
     			</div><!-- /.navbar-collapse -->
-  				</div><!-- /.container-fluid -->
-			</nav>
-    	</div>
+  				<!-- </div> --><!-- /.container-fluid -->
+        </div>
+        </nav>
     </div>
+   <script>
+   		$('navbar-nav').click(function(){
+   			$('li').toggleClass('active');
+   		});
+   </script>
   </body>
 </html>
