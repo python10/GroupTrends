@@ -1,6 +1,6 @@
 /*css file for main_page*/
 
-.header{
+/*.header{
 	height: 80px;
 	background: #e7e7e7;
 }
@@ -8,7 +8,7 @@
 	margin-left: 20px;
 	margin-top: 20px;
 }
-/*.brand{
+.brand{
 	display: inline;
 	margin-left: 10px;
 	margin-top: 25px;
@@ -16,7 +16,7 @@
 	font-size:25px;
 	font-weight: bold;
 	color: #13456A;
-}*/
+}
 .invite{
 	display: inline;
 	float: right;
@@ -26,4 +26,17 @@
 	margin-bottom:30px; 
 	font-size: 16px;
 	font-style: bold;
+}
+*/
+
+.container-fluid{
+	background: #383C41;
+	font-family: "微软雅黑";
+}
+
+.navbar-brand{
+	font-weight: bold;
+}
+.navbar-brand span{
+	color:#B90D3A;
 }
